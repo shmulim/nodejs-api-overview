@@ -5,7 +5,7 @@ var server = http.createServer(function(request, response){
 
 server.listen(8080, 'localhost');
 
-// chaining the listener directly to the server object
+// binding a listener directly to a newly created server
 var http = require('http');
 var server = http.createServer().listen(8080, 'localhost');
 // server event handlers could be implemented here.
